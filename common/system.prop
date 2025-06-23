@@ -1,0 +1,3 @@
+# This file will be read by resetprop
+# Set display density to default value
+# ro.sf.lcd_density=404
