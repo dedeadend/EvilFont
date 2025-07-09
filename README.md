@@ -11,7 +11,7 @@ A Magisk/KernelSU module to change your Arabic/Persian font to Teshrin + IOS emo
 
 ## 😎 Support
 
-For support, you can find me at https://t.me/Evil_N
+For support, you can find me at https://t.me/DeDeadend
 
 ## ❤️ Donation
 
