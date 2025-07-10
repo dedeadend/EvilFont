@@ -16,3 +16,6 @@ For support, you can find me at https://t.me/DeDeadend
 ## ❤️ Donation
 
 USDT(TRC20): TWRc6DWLvgfJxGpiBt3PNUo9NAGn8KsvWA
+
+## ⚖️ License
+This module is licensed under the **MIT License**. See the LICENSE file for details.
