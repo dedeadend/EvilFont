@@ -31,7 +31,7 @@ on_install() {
     ui_print "  Apps from Magisk To work the "
     ui_print "  Module in Google System Apps "
     ui_print "                               "
-    ui_print "  Created by : DeDeadend      "
+    ui_print "  Created by : DeDeadend       "
     ui_print "                               "
     ui_print "-------------------------------"
     ui_print "                               "
