@@ -20,7 +20,7 @@ Transform your Android UI with **EvilFont**. This systemless module brings the e
 - 🔄 **Compatibility**: Works on most AOSP and custom-skinned Android versions.
 
 
-  ## 📸 Screenshots
+  ## 📸 Screenshot
 
 | Emoji & Text |
 |:---:|
