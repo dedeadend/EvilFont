@@ -60,6 +60,10 @@ If you find this project helpful, you can buy me a coffee
   </a>
 </div>
 
+## 🙌 Credits
+
+[samuelngs/apple-emoji-linux](https://github.com/samuelngs/apple-emoji-linux)
+
 
 ## ⚖️ License
 
