@@ -8,12 +8,13 @@
 
 # 🪶 EvilFont
 
-**EvilFont** is a systemless Magisk/KernelSU module designed to enhance your Android typography. It replaces default **Arabic/Persian** system fonts with the elegant **Teshrin** font and updates system emojis to the latest **iOS style**. Enjoy a fresh, premium UI experience without ever touching your /system partition
+Transform your Android UI with **EvilFont**. This systemless module brings the elegance of the **Teshrin** typeface to **Arabic/Persian** layouts and seamlessly integrates high-definition **iOS Emojis**. Engineered to be lightweight and fast, EvilFont delivers a premium typography experience without ever modifying your `/system` partition.
+
 
 ## ✨ Features
 
 - 🖋 **Teshrin Font**: Replaces default Arabic/Persian font with clean and modern typography.
-- 🤩 **iOS Emojis**: System-wide replacement for standard iOS emojis.
+- 🤩 **iOS Emojis**: System-wide replacement for high-definition iOS emojis.
 - 🛠 **Systemless**: Doesn't touch the `/system` partition (SafetyNet/Play Integrity friendly).
 - ⚡ **Lightweight**: Optimized font files for zero impact on system performance.
 - 🔄 **Compatibility**: Works on most AOSP and custom-skinned Android versions.
@@ -29,12 +30,12 @@
 ## 📥 Installation
 
 > [!CAUTION]
-> - **Requirements**: Magisk, KernelSU, or APatch installed.
+> - **Requirements**: Magisk, KernelSU or APatch installed.
 > - **Disclaimer**: This module is thoroughly tested and safe. However install at your own risk.
 
-1. Download the latest `EvilFont-v1.x.zip` from [Releases](https://github.com/dedeadend/EvilFont/releases/latest).
+1. Download the latest `EvilFont-v1.x.zip` from [Releases Page](https://github.com/dedeadend/EvilFont/releases/latest).
 2. Open your **Root Manager** app.
-3. Go to the Modules tab.
+3. Go to the **Modules** tab.
 4. Install downloaded zip.
 5. Reboot and Enjoy 💚.
 
@@ -59,6 +60,7 @@ If you find this project helpful, you can buy me a coffee
      <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" height="35" alt="Crypto donation button by NOWPayments">
   </a>
 </div>
+
 
 ## 🙌 Credits
 
