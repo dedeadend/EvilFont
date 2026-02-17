@@ -37,7 +37,7 @@ Transform your Android UI with **EvilFont**. This systemless module brings the e
 2. Open your **Root Manager** app.
 3. Go to the **Modules** tab.
 4. Install downloaded zip.
-5. Reboot and Enjoy 💚.
+5. Reboot and Enjoy 💚
 
 
 ## ♠️Support
