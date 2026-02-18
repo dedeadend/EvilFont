@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/v/release/dedeadend/EvilFont?style=for-the-badge&color=blueviolet&logo=android" />
   <img src="https://img.shields.io/github/downloads/dedeadend/EvilFont/total?style=for-the-badge&color=orange&logo=github" />
-  <img src="https://komarev.com/ghpvc/?username=dedeadend&repo=EvilFont&label=VIEWS&color=blue&style=for-the-badge" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fdedeadend%2FEvilFont.json%3Fshow%3D5&style=for-the-badge&color=blue&label=VIEWS" />
   <img src="https://img.shields.io/github/license/dedeadend/EvilFont?style=for-the-badge&color=yellow" />
 </p>
 
@@ -40,7 +40,7 @@ Transform your Android UI with **EvilFont**. This systemless module brings the e
 5. Reboot and Enjoy 💚
 
 
-## ♠️Support
+## ♠️ Support
 
 You can find me at
 
