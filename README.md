@@ -60,7 +60,7 @@ If you find this project helpful, you can buy me a coffee
 
 <div align="left">
   <a href="https://nowpayments.io/donation/dedeadend" target="_blank" rel="noreferrer noopener">
-     <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" height="35" alt="Crypto donation button by NOWPayments">
+     <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" height="40" alt="Crypto donation button by NOWPayments">
   </a>
 </div>
 
