@@ -14,7 +14,7 @@ Transform your Android UI with **EvilFont**. This systemless module brings the e
 ## ✨ Features
 
 - 🖋 **Teshrin Font**: Replaces default Arabic/Persian font with clean and modern typography.
-- 🤩 **iOS Emojis**: System-wide replacement for high-definition iOS emojis.
+- 🤩 **iOS Emojis**: System-wide replacement for high-definition **iOS 18.4** emojis.
 - 🛠 **Systemless**: Doesn't touch the `/system` partition (SafetyNet/Play Integrity friendly).
 - ⚡ **Lightweight**: Optimized font files for zero impact on system performance.
 - 🔄 **Compatibility**: Works on most AOSP and custom-skinned Android versions.
