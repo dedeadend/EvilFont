@@ -67,13 +67,13 @@ If you find this project helpful, you can buy me a coffee
 
 ## 🙌 Credits
 
-- **Emoji Assets**: This project uses emoji font files from [samuelngs/apple-emoji-linux](https://github.com/samuelngs/apple-emoji-linux). These assets are used under the terms of the **Apache License 2.0**.
+- **Emoji Assets**: This project uses emoji font files from [samuelngs/apple-emoji-linux](https://github.com/samuelngs/apple-emoji-linux). These assets are used under the terms of the **Apache-2.0 License**.
 - **Typography**: Special thanks to the designers of the **Teshrin** typeface used for Arabic/Persian layouts.
 
 
 ## ⚖️ License
 
-Distributed under the Apache-2.0 License. See [LICENSE](LICENSE) for more information.
+Distributed under the **Apache-2.0 License**. See [LICENSE](LICENSE) for more information.
 
 ---
 
