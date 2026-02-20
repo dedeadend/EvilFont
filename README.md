@@ -24,7 +24,7 @@ Transform your Android UI with **EvilFont**. This systemless module brings the e
 
 | Emoji & Text |
 |:---:|
-| <img src="screenshots/screenshot.png" width="700"> |
+| <img src="screenshots/screenshot.png"> |
 
 
 ## 📥 Installation
