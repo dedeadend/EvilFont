@@ -1,6 +1,6 @@
 id=EvilFont
 name=EvilFont
-version=v1.2
-versionCode=12
+version=v2.0
+versionCode=20
 author=DeDeadend
-description=Change your Arabic/Persian font to Teshrin + iOS emojis (systemless)
+description=Replaces default Arabic/Persian font with *** + iOS 26.2.1 emojis (systemless)
