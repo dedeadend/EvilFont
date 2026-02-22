@@ -6,6 +6,11 @@
 </p>
 
 
+> [!IMPORTANT]
+> **EvilFont is evolving... 🫧**
+> - Something much bigger than a single font is coming. I'm bringing a new level of customization to your UI. Just get ready. 🔥
+
+
 # 🪶 EvilFont
 
 Transform your Android UI with **EvilFont**. This systemless module brings the elegance of the **Teshrin** typeface to **Arabic/Persian** layouts and seamlessly integrates high-definition **iOS Emojis**. Engineered to be lightweight and fast, EvilFont delivers a premium typography experience without ever modifying your `/system` partition.
