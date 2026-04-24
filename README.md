@@ -8,7 +8,7 @@
 
 > [!IMPORTANT]
 > **EvilFont is evolving... 🫧**
-> - Something much bigger than a single font is coming. I'm bringing a new level of customization to your UI. Just get ready for **EvilFont v2.0**. 😎
+> - Something much bigger than a single font is coming. I'm bringing a new level of customization to your UI. Just get ready for **EvilFont v2.0** 🔥
 
 
 # 🪶 EvilFont
