@@ -8,8 +8,8 @@
 
 
 > [!IMPORTANT]
-> **EvilFont 2.0 is here! 🚀**
-> A complete overhaul with an interactive installer. Mix and match exactly what you need: choose any font, any emoji style, or grab both. It's all up to you!
+> **EvilFont 2.0 is here! 🫧**
+> - A complete overhaul with an interactive installer. Mix and match exactly what you need: choose any font, any emoji style, or grab both. It's all up to you!
 
 
 # 🪶 EvilFont
