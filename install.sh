@@ -1,6 +1,6 @@
-#!/sbin/sh
+#!/system/bin/sh
 ##################################
-# Evil Font - Interactive Install #
+# EvilFont - Interactive Install #
 ##################################
 
 SKIPMOUNT=false
@@ -31,8 +31,11 @@ print_modname() {
     ui_print " "
 }
 
-FONTS="Vazirmatn(Recommended) Baloo_Bhaijaan_2 El_Messiri Estedad Harmattan IBM_Plex_Sans_Arabic Lemonada Playpen_Sans_Arabic Readex_Pro Reem_Kufi"
-TOTAL_FONTS=10
+FONTS="Vazirmatn(Recommended) Baloo_Bhaijaan_2 Beiruti El_Messiri Estedad Harmattan IBM_Plex_Sans_Arabic Markazi_Text Noto_Sans_Arabic Parastoo Playpen_Sans_Arabic Reem_Kufi Zain"
+TOTAL_FONTS=13
+
+EMOJI_VERSIONS="iOS_18.4(Recommended) macOS_26(Experimental)"
+TOTAL_EMOJI=2
 
 get_key() {
     while true; do
@@ -116,11 +119,44 @@ select_font() {
     done
 }
 
+select_emoji_version() {
+    CURRENT=0
+    
+    while true; do
+        ui_print " "
+        ui_print "━━━━━━━━━━━━━━━━━━━━━━"
+        ui_print "  Choose Emoji Version"
+        ui_print "━━━━━━━━━━━━━━━━━━━━━━"
+        ui_print "  Vol-: Next  |  Vol+: Select"
+        ui_print " "
+        
+        INDEX=0
+        for E in $EMOJI_VERSIONS; do
+            if [ "$INDEX" -eq "$CURRENT" ]; then
+                ui_print "  ➤ Apple $E"
+            else
+                ui_print "    Apple $E"
+            fi
+            INDEX=$((INDEX + 1))
+        done
+        
+        KEY=$(get_key)
+        
+        if [ "$KEY" = "DOWN" ]; then
+            CURRENT=$(( (CURRENT + 1) % TOTAL_EMOJI ))
+        elif [ "$KEY" = "UP" ]; then
+            SELECTED_INDEX=$((CURRENT + 1))
+            SELECTED_EMOJI=$(echo $EMOJI_VERSIONS | cut -d' ' -f$SELECTED_INDEX)
+            return 0
+        fi
+    done
+}
+
 on_install() {
     ui_print " "
     ui_print " ── Extracting resources..."
     unzip -o "$ZIPFILE" 'fonts/*' -d "$MODPATH" >&2
-    unzip -o "$ZIPFILE" 'emoji/*' -d "$MODPATH" >&2
+    unzip -o "$ZIPFILE" 'emojis/*' -d "$MODPATH" >&2
     
     mkdir -p "$MODPATH/system/fonts"
 
@@ -131,7 +167,7 @@ on_install() {
         select_font
         
         ui_print " "
-        ui_print " ── Installing: $SELECTED_FONT"
+        ui_print " ── Installing: $SELECTED_FONT Font"
         
         if [ -d "$MODPATH/fonts/$SELECTED_FONT" ]; then
             cp -f "$MODPATH/fonts/$SELECTED_FONT"/* "$MODPATH/system/fonts/"
@@ -146,18 +182,20 @@ on_install() {
         ui_print " ✖️ Skipped font installation"
     fi
 
-    select_yes_no "Install iOS Emoji?"
+    select_yes_no "Install Apple Emoji?"
     INSTALL_EMOJI=$?
 
     if [ "$INSTALL_EMOJI" = "0" ]; then
-        ui_print " "
-        ui_print " ── Installing iOS Emoji..."
+        select_emoji_version
         
-        if [ -f "$MODPATH/emoji/NotoColorEmoji.ttf" ]; then
-            cp -f "$MODPATH/emoji/NotoColorEmoji.ttf" "$MODPATH/system/fonts/"
+        ui_print " "
+        ui_print " ── Installing: $SELECTED_EMOJI Emoji"
+        
+        if [ -f "$MODPATH/emojis/$SELECTED_EMOJI/NotoColorEmoji.ttf" ]; then
+            cp -f "$MODPATH/emojis/$SELECTED_EMOJI/NotoColorEmoji.ttf" "$MODPATH/system/fonts/"
             echo "ON" > "$MODPATH/emoji_status.conf"
-            ui_print " ✔️ iOS Emoji installed"
-            EMOJI_STATUS="iOS"
+            ui_print " ✔️ Emoji installed successfully"
+            EMOJI_STATUS="Apple $SELECTED_EMOJI"
         else
             ui_print " ✖️ Emoji file not found!"
             EMOJI_STATUS="Stock"
@@ -166,7 +204,7 @@ on_install() {
         EMOJI_STATUS="Stock"
         echo "OFF" > "$MODPATH/emoji_status.conf"
         ui_print " "
-        ui_print " ✖️ Skipped iOS Emoji"
+        ui_print " ✖️ Skipped Apple Emoji"
     fi
 
     ui_print " "
@@ -174,9 +212,9 @@ on_install() {
     ui_print "  Installation Complete"
     ui_print "━━━━━━━━━━━━━━━━━━━━━━"
     ui_print " "
-    ui_print "  Font:  $SELECTED_FONT"
-    if [ "$EMOJI_STATUS" = "iOS" ]; then
-        ui_print "  Emoji: iOS"
+    ui_print "  Font : $SELECTED_FONT"
+    if [ "$EMOJI_STATUS" != "Stock" ]; then
+        ui_print "  Emoji: Apple $SELECTED_EMOJI"
     else
         ui_print "  Emoji: Stock"
     fi
