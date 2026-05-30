@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="screenshots/EvilFontBanner.png" alt="EvilFont Banner" width="100%">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/v/release/dedeadend/EvilFont?style=for-the-badge&color=blueviolet&logo=android" />
   <img src="https://img.shields.io/github/downloads/dedeadend/EvilFont/total?style=for-the-badge&color=orange&logo=github" />
   <!-- <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fdedeadend%2FEvilFont.json&style=for-the-badge&color=blue&label=VIEWS"> -->
@@ -34,7 +38,7 @@ Transform your Android UI with **EvilFont**. This systemless module lets you **i
 
 | Font & Emoji |
 |:---:|
-| <img src="screenshots/screenshot12.png"> |
+| <img src="screenshots/screenshot12.png" alt="Font & Emoji"> |
 
 
 ## 📥 Installation
