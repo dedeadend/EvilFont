@@ -97,5 +97,5 @@ Distributed under the **Apache-2.0 License**. See [LICENSE](LICENSE) for more in
 ---
 
 <div align="center">
-  Developed by <a href="https://github.com/dedeadend">DeDeadend</a>
+  Developed with 💚 by <a href="https://github.com/dedeadend">DeDeadend</a>
 </div>
