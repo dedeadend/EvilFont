@@ -10,11 +10,6 @@
 </p>
 
 
-> [!IMPORTANT]
-> **EvilFont 2.0 is here! 🫧**
-> - A complete overhaul with an interactive installer. Mix and match exactly what you need: choose any font, any emoji style, or grab both. It's all up to you!
-
-
 # 🪶 EvilFont
 
 Transform your Android UI with **EvilFont**. This systemless module lets you **interactively choose** from a beautiful collection of **Arabic/Persian typefaces** and seamlessly integrates high-definition **Apple Emojis** (with multiple versions available). Want just the font? Just the emoji? Or both? The choice is entirely yours. Designed for safety and flexibility, EvilFont delivers a premium typography experience without ever modifying your `/system` partition.
