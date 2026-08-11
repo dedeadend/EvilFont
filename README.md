@@ -1,15 +1,13 @@
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/dedeadend/EvilFont?style=for-the-badge&color=blueviolet&logo=android" />
-  <img src="https://img.shields.io/github/downloads/dedeadend/EvilFont/total?style=for-the-badge&color=orange&logo=github" />
-  <!-- <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fdedeadend%2FEvilFont.json&style=for-the-badge&color=blue&label=VIEWS"> -->
-  <img src="https://api.visitorbadge.io/api/visitors?path=dedeadend%2Fevilfont&label=Views&countColor=blue" />
-  <img src="https://img.shields.io/github/license/dedeadend/EvilFont?style=for-the-badge&color=yellow" />
+  <img src="screenshots/EvilFontBanner.png" alt="EvilFont Banner" width="100%">
 </p>
 
-
-> [!IMPORTANT]
-> **EvilFont 2.0 is here! 🚀**
-> A complete overhaul with an interactive installer. Mix and match exactly what you need: choose any font, any emoji style, or grab both. It's all up to you!
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/dedeadend/EvilFont?style=for-the-badge&color=blueviolet&logo=android" alt="Release Badge"/>
+  <img src="https://img.shields.io/github/downloads/dedeadend/EvilFont/total?style=for-the-badge&color=orange&logo=github" alt="Downloads Badge"/>
+  <img src="https://api.visitorbadge.io/api/visitors?path=dedeadend%2Fevilfont&label=Views&countColor=blue" alt="Views Badge"/>
+  <img src="https://img.shields.io/github/license/dedeadend/EvilFont?style=for-the-badge&color=yellow" alt="License Badge"/>
+</p>
 
 
 # 🪶 EvilFont
@@ -34,7 +32,7 @@ Transform your Android UI with **EvilFont**. This systemless module lets you **i
 
 | Font & Emoji |
 |:---:|
-| <img src="screenshots/screenshot.png"> |
+| <img src="screenshots/screenshot.png" alt="Font & Emoji"> |
 
 
 ## 📥 Installation
