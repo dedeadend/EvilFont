@@ -31,8 +31,8 @@ print_modname() {
     ui_print " "
 }
 
-FONTS="Vazirmatn(Recommended) Baloo_Bhaijaan_2 Beiruti El_Messiri Estedad Harmattan IBM_Plex_Sans_Arabic Markazi_Text Noto_Sans_Arabic Parastoo Playpen_Sans_Arabic Reem_Kufi Tajawal Vazirmatn_Round_Dots Zain"
-TOTAL_FONTS=15
+FONTS="Vazirmatn(Recommended) Baloo_Bhaijaan_2 Beiruti El_Messiri Estedad Harmattan IBM_Plex_Sans_Arabic Markazi_Text Noto_Sans_Arabic Parastoo Playpen_Sans_Arabic Reem_Kufi Vazirmatn_Round_Dots Zain"
+TOTAL_FONTS=14
 
 EMOJI_VERSIONS="iOS_18.4(Recommended) macOS_26(Experimental)"
 TOTAL_EMOJI=2
