@@ -28,7 +28,7 @@ Transform your Android UI with **EvilFont**. This systemless module lets you **i
 
 ## 📸 Screenshot
 
-- For a complete preview of all fonts and styles, check out the **[screenshots folder](screenshots/)**.
+- For a complete preview of all fonts and styles, check out the **[Screenshots Folder](screenshots/)**.
 
 | Font & Emoji |
 |:---:|
