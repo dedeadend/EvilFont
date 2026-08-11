@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/EvilFontBanner.png" alt="EvilFont Banner" width="100%">
+  <img src="EvilFontBanner.png" alt="EvilFont Banner" width="100%">
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ Transform your Android UI with **EvilFont**. This systemless module lets you **i
 
 | Font & Emoji |
 |:---:|
-| <img src="screenshots/screenshot.png" alt="Font & Emoji"> |
+| <img src="screenshot.png" alt="Font & Emoji"> |
 
 
 ## 📥 Installation
